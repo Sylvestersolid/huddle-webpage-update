@@ -1,0 +1,190 @@
+body {
+  text-align: center;
+}
+
+.navbar {
+  margin-top: 50px;
+}
+
+h1,
+h2 {
+  font-family: "ubuntu";
+}
+
+/* BUTTONS */
+.btn-danger {
+  border-radius: 50px;
+  background-color: #f10086;
+}
+
+.btn-md {
+  border-radius: 0;
+}
+.btn-outline-danger {
+  border-radius: 50px;
+}
+
+.btn-lg {
+  margin-top: 50px;
+}
+
+/* first section */
+#huddle {
+  text-align: center;
+  margin: 100px 0 50px 0;
+}
+.huddle {
+  text-align: center;
+  margin: 3% 30%;
+}
+h2,
+p {
+  text-align: left;
+}
+.mockup {
+  width: 700px;
+  margin: 10% auto;
+  text-align: center;
+  display: flex;
+}
+
+.communities {
+  justify-content: center;
+}
+.action-text {
+  text-align: center;
+}
+.flex-container {
+    margin: 50px 0;
+}
+
+/* image sizes */
+.growth-image,
+.conversation-image,
+.user-image {
+  width: 500px;
+  height: auto;
+}
+.conversation,
+.growth,
+.users {
+  padding: 10% 5%;
+}
+
+/* SECOND SECTION  */
+.messages,
+.community {
+  text-align: center;
+}
+
+/* ACTION SECTION */
+#action {
+  margin: 100px 0;
+}
+
+/* THE LAST SECTION */
+#footer {
+  text-align: left;
+ 
+}
+.left-footer,
+.right-footer {
+  padding: 10% 10% 5% 10%;
+  background-color: hsl(192, 100%, 9%);
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-image {
+  margin-right: 10px;
+  height: 20px;
+}
+#footer {
+  padding-top: 50px;
+}
+.footer .fa-brands {
+  padding-right: 10px;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.text-color {
+  color: antiquewhite;
+}
+.logo-image {
+  background-color: white;
+}
+
+/* BACKGROUND IMAGES */
+.users-image,
+.users,
+.growth,
+.grow {
+  background-color: hsl(207, 100%, 98%);
+}
+.bg {
+    width: 100%;
+}
+/* GRID SYSTEM */
+.footer,
+.user
+ {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container,
+.grow, 
+#conversation
+   { display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* MEDIA QUERRY */
+@media (max-width: 780px) {
+  h2,
+  p {
+    text-align: center;
+  }
+  #conversation {
+    margin: 50px 0;
+  }
+  .growth-image {
+      justify-content: space-between;
+  }
+  .messages,
+  .community {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .text-color {
+    text-align: left;
+  }
+  .mockup {
+    width: 300px;
+  }
+  .grow,
+  .user,
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #conversation {
+      display: flex;
+      flex-direction: column;
+  }
+  .huddle {
+    margin: 0 30px;
+  }
+  .growth-image,
+  .conversation-image,
+  .user-image {
+    width: 100px;
+  margin: 5% auto;
+  text-align: center;
+  display: flex;
+  }
+}
